@@ -41,7 +41,7 @@ qa = RetrievalQA.from_chain_type(
 )
 
 # Prepare the context and query
-query = "Who is Asutosh Sidhya?"
+query = "Who is Shivam Roy ?"
 
 # Call the invoke method with the correct input keys
 result = qa.invoke({"query": query})  # Ensure you include context if required
